@@ -8,16 +8,18 @@ A modern, responsive personal task management application built with React. This
 - **Task Management**: Create, edit, delete, and toggle task completion
 - **Task Filtering**: Filter tasks by All, Completed, or Pending status
 - **Data Persistence**: Tasks are saved to localStorage and persist across sessions
+- **Dark Mode Toggle**: Allows to changes between light and dark mode using button click
+- **Task Priorities**: Task priorities can be added and tasks can be sorted based on priority, creation date and name
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Real-time Updates**: Task counts update dynamically as you interact with tasks
 - **Clean UI**: Modern, card-based interface with smooth animations
 - **Accessibility**: Keyboard navigation and screen reader friendly
 
-## 🛠 Setup Instructions
+## Setup Instructions
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/task-tracker.git
-   cd task-tracker
+   git clone https://github.com/PrachiiPatil/RYGNeco-Internship-Assignment.git
+   cd task-tracker-app
    ```
 
 2. Install dependencies
@@ -65,30 +67,18 @@ task-tracker/
 [Insert your deployed application URL here]
 
 ## Screenshots
-[Add screenshots of your application here]
+Screenshots are added to the Output folder
 
 ## Usage
 1. **Login**: Enter any username to access the application
-2. **Add Tasks**: Use the form at the top to create new tasks with title and optional description
+2. **Add Tasks**: Use the form at the top to create new tasks with title and optional description and priority
 3. **Manage Tasks**: 
-   - Click the checkbox to mark tasks as complete/incomplete
-   - Use the edit button (✏️) to modify existing tasks
-   - Use the delete button (🗑️) to remove tasks
+   - Click the toggle button to mark tasks as complete/incomplete
+   - Use the edit button to modify existing tasks
+   - Use the delete button to remove tasks
 4. **Filter Tasks**: Use the filter buttons to view All, Pending, or Completed tasks
+5. **Sort Tasks**: Use priority, creation date or alphabetical order to sort tasks
 5. **Logout**: Click the logout button to clear your session
-
-## Key Features Implemented
-- Simple login with username storage
-- Task CRUD operations (Create, Read, Update, Delete)
-- Task completion toggle
-- Task filtering by status
-- LocalStorage data persistence
-- Responsive design for all screen sizes
-- Form validation and error handling
-- Confirmation dialogs for destructive actions
-- Task creation timestamps
-- Empty state handling
-- Accessible UI with proper focus management
 
 ## Technical Implementation
 - **Component Architecture**: Modular components with clear separation of concerns
@@ -98,21 +88,12 @@ task-tracker/
 - **Performance**: Efficient re-renders with proper key usage and state updates
 
 ## Future Enhancements
-- Task search functionality
 - Task categories/tags
 - Due dates and reminders
-- Priority levels
-- Dark mode toggle
 - Task export/import
 - Multiple user support
 - Task sharing capabilities
 
-## License
-This project is created for educational purposes as part of an internship assignment.
-
-## Contributing
-This is an assignment project, but feedback and suggestions are welcome!
-
 ## Contact
-[Your Name] - [Your Email]
-Project Link: [https://github.com/yourusername/task-tracker](https://github.com/yourusername/task-tracker)
+Prachi Patil - prachimpatil603@gmail.com
+Project Link: [https://github.com/PrachiiPatil/RYGNeco-Internship-Assignment]
