@@ -64,7 +64,7 @@ task-tracker/
 ```
 
 ## Live Demo
-[Insert your deployed application URL here]
+[https://mellow-salamander-dfec37.netlify.app/](https://mellow-salamander-dfec37.netlify.app/)
 
 ## Screenshots
 Screenshots are added to the Output folder
@@ -96,4 +96,4 @@ Screenshots are added to the Output folder
 
 ## Contact
 Prachi Patil - prachimpatil603@gmail.com
-Project Link: [https://github.com/PrachiiPatil/RYGNeco-Internship-Assignment]
+Project Link: [https://github.com/PrachiiPatil/RYGNeco-Internship-Assignment](https://github.com/PrachiiPatil/RYGNeco-Internship-Assignment)
