@@ -29,15 +29,6 @@ const TaskItem = ({ task, onToggleComplete, onDeleteTask, onEditTask }) => {
     return '#16a34a'; // Green
   };
 
-  const getPriorityIcon = (priorityValue) => {
-    // Removed emojis, using text indicators instead
-    if (priorityValue <= 2) return '!!'; // Very High
-    if (priorityValue <= 4) return '!'; // High
-    if (priorityValue <= 6) return '-'; // Medium
-    if (priorityValue <= 8) return '~'; // Low
-    return '·'; // Very Low
-  };
-
   return (
     <div className={`task-item ${task.completed ? 'completed' : 'pending'}`}>
       <div className="task-content">
